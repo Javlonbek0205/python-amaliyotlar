@@ -1,0 +1,6 @@
+open(file_name) operatori yordamida fayllar ochiladi va close(file_name) yordamida yopiladi
+with open(file_name) as file->yordamida fileni ochib birdaniga yopish mumkin. O`qish uchun ochiladi
+with open(file_name, 'w') as file-> yordamida fileni yangi yaratadi eskisini o`chiradi va yozadi
+with open(file_name, 'a')as file-> yordamida mavjud faylga malumot yozadi yo`q bo`lsa yangi yaratadi
+pickle moduli yordamida biz o`zgaruvchilarni fayllarga yozishimiz mumkin
+import pickle> with open(o`zgaruvchi_file.pkl, 'wb') as file> picle.dump(ozgaruvchi, file)--> yoziladi
